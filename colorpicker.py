@@ -129,7 +129,7 @@ if uploaded_file is not None:
     # Kontainer hasil
     st.markdown('<div class="main-block">', unsafe_allow_html=True)
 
-    st.image(image, caption="🖼️ Gambar yang Diunggah", use_column_width=True)
+    st.image(image, caption="🖼️ Gambar yang Diunggah", use_container_width=True)
 
     st.subheader("🌈 Palet Warna Dominan")
     hex_html = ""
